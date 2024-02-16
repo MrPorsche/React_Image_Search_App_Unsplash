@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import axios from 'axios';
+import axios from '../node_modules/axios';
 import './index.css';
 
 const API_URL = 'https://api.unsplash.com/search/photos';
